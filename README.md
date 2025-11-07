@@ -1,27 +1,28 @@
 # CtfSchoolWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Este proyecto fue generado con Angular CLI, versión 16.2.16.
 
-## Development server
+## Desarrollador servidor
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ejecuta ng serve para un servidor de desarrollo. Navega a http://localhost:4200/. La aplicación se recargará automáticamente si modificas alguno de los archivos fuente.
 
-## Code scaffolding
+## Generación de código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecuta ng generate component component-name para generar un nuevo componente. También puedes usar ng generate directive|pipe|service|class|guard|interface|enum|module.
 
-## Build
+## Construcción
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ejecuta ng build para generar los artefactos en el directorio dist/.
 
-## Running unit tests
+## Pruebas unitarias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecuta ng test para ejecutar las pruebas unitarias a través de Karma.
 
-## Running end-to-end tests
+## Pruebas end-to-end
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Ejecuta ng e2e para ejecutar las pruebas end-to-end. Para usar este comando, primero debes añadir un paquete que implemente capacidades de pruebas end-to-end.
 
-## Further help
+## Ayuda adicional
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obtener más ayuda sobre Angular CLI usa ng help o consulta la página de Angular CLI Overview and Command Reference:
+https://angular.io/cli/

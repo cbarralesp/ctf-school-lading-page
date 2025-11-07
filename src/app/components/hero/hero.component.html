@@ -6,9 +6,9 @@
 
   <div class="container mx-auto px-4 pt-20 relative z-10">
     <div class="text-center max-w-5xl mx-auto">
-      <!-- Logo -->
+      <!-- Logo - TAMAÑO AUMENTADO -->
       <div class="mb-8 animate-fade-in">
-        <img src="assets/logo.png" alt="Torre Fuerte School" class="h-32 w-32 mx-auto">
+        <img src="assets/logo.png" alt="Torre Fuerte School" class="h-48 w-48 md:h-56 md:w-56 mx-auto object-contain">
       </div>
 
       <!-- Main Heading -->
@@ -37,16 +37,6 @@
                 class="bg-transparent border-2 border-white hover:bg-white hover:text-primary px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300">
           Conocer Más
         </button>
-      </div>
-
-      <!-- Stats -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-up">
-        <div *ngFor="let stat of stats; let i = index"
-             class="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl"
-             [style.animation-delay]="(0.8 + i * 0.1) + 's'">
-          <div class="text-4xl font-bold text-secondary mb-2">{{ stat.value }}</div>
-          <div class="text-gray-300">{{ stat.label }}</div>
-        </div>
       </div>
     </div>
   </div>
